@@ -53,7 +53,7 @@ After solving the puzzle the program will ask for the user to name the output fi
 ```
 ## Results
 
-Able to solve **Expert** level puzzles generated from [sodoku.com] with an average time of 0.4673891068 per puzzle
+Able to solve **Expert** level puzzles generated from [sodoku.com] with an average time of 0.4673891068 per puzzle (Tested Five Puzzles)
 
 
 [^1]: http://www.cs.toronto.edu/~hojjat/384w09/Lectures/Lecture-04-Backtracking-Search.pdf
