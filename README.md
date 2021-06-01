@@ -1,0 +1,2 @@
+# Sodoku
+ Sodoku AI solver
