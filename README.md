@@ -38,7 +38,7 @@ The program will ask for a text document to be read. The text document should be
 070001200
 ```
 
-After solving the puzzle the program will ask the user to name the output file and print out to terminal the formatted results of the puzzle before and after it has been solved.
+After solving the puzzle the program will ask for the user to name the output file and print out to terminal the formatted results of the puzzle before and after it has been solved.
 
 ```sh
 0 0 0 4 7 0 0 3 0    |   6 8 5 4 7 9 1 3 2 
@@ -53,7 +53,17 @@ After solving the puzzle the program will ask the user to name the output file a
 ```
 ## Results
 
-Able to solve **Expert** level puzzles generated from [sodoku.com] with an average time of 0.4673891068 per puzzle (Tested Five Puzzles)
+| Puzzle      | Easy Time (seconds) | Medium Time (seconds) | Hard Time (seconds) | Expert Time (seconds) |
+| :----------- | :-----------: | :-----------: | :-----------: | -----------: |
+| 1   | 0.0521528720856 |  0.0914587974548 | 0.216630935669 | 0.503130197525 
+| 2   | 0.0429151058197 |  0.107887983322  | 0.123332977295 | 0.801200151443
+| 3   | 0.05295586586   |  0.0739970207214 | 0.225169897079 | 0.164076089859 
+| 4   | 0.065633058548  |  0.0541348457336 | 0.121155977249 | 0.617947101593 
+| 5   | 0.065633058548  |  0.115435123444  | 0.183528184891 | 0.250591993332
+| Average   | 0.055857992172  |  0.088582754135  | 0.17396359444 | 0.4673891068
+
+
+Puzzles generated from [sodoku.com]
 
 
 [^1]: http://www.cs.toronto.edu/~hojjat/384w09/Lectures/Lecture-04-Backtracking-Search.pdf
