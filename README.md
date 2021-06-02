@@ -64,8 +64,6 @@ After solving the puzzle the program will ask for the user to name the output fi
 
 
 Puzzles generated from [sodoku.com]
-
-
 [^1]: http://www.cs.toronto.edu/~hojjat/384w09/Lectures/Lecture-04-Backtracking-Search.pdf
 
 [sodoku.com]: https://sudoku.com/expert/
