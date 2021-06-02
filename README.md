@@ -17,7 +17,7 @@ Sodoku is a logic-based puzzle that consists of nine partially filled _3x3_ grid
 - **Forward Checking (FC)**: Eliminates value from neighbouring domains. If domain is empty, the algorithm can eliminate that value without having to backtrack.
 
     _Why use MRV + DH+ FC?_
-    We can eliminate the values that will cause an incorrect solution earlier on so there are less branches at the top of the search tree to backtrack from. We use forward tracking to elimnate possible values before the backtracking algorithm gets to it allowing for less work to be done. Compared to simple backtracking, using MRV + FC can often times make the algorithm **1000x** faster [^1]
+    We can eliminate the values that will cause an incorrect solution earlier on so there are less branches at the top of the search tree to backtrack from. The Degree Heuristic chooses the squares that constraint other squares the most. Therefore, if the solution is incorrect the point at which it fails will be found sooner. We use forward tracking to elimnate possible values before the backtracking algorithm gets to it allowing for less work to be done. Compared to simple backtracking, using MRV + FC can often times make the algorithm **1000x** faster [^1]
 
 ## Tech
 
