@@ -38,7 +38,7 @@ The program will ask for a text document to be read. The text document should be
 070001200
 ```
 
-After solving the puzzle the program will ask for the user to name the output file and print out to terminal the formatted results of the puzzle before and after it has been solved.
+After solving the puzzle the program will ask the user to name the output file and print out to terminal the formatted results of the puzzle before and after it has been solved.
 
 ```sh
 0 0 0 4 7 0 0 3 0    |   6 8 5 4 7 9 1 3 2 
