@@ -63,7 +63,7 @@ After solving the puzzle the program will ask for the user to name the output fi
 | Average   | 0.055857992172  |  0.088582754135  | 0.17396359444 | 0.4673891068
 
 
-Puzzles generated from [sodoku.com]
+Puzzles generated from [sodoku.com]. 
 [^1]: http://www.cs.toronto.edu/~hojjat/384w09/Lectures/Lecture-04-Backtracking-Search.pdf
 
 [sodoku.com]: https://sudoku.com/expert/
