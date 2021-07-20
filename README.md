@@ -1,8 +1,8 @@
-# Sodoku Solver (CSP)
+# Sudoku Solver (CSP)
 ## _Using BackTracking, MRV, DH, and FC to solve any Sodoku puzzle_
 
 
-Sodoku is a logic-based puzzle that consists of nine partially filled _3x3_ grids. There a few basic rules that make it a classic _constraint-satisfaction problem_.
+Sudoku is a logic-based puzzle that consists of nine partially filled _3x3_ grids. There a few basic rules that make it a classic _constraint-satisfaction problem_.
 
 - Each square must be filled with a digit (1-9)
 - Each row must be filled with digits(1-9) with each digit only appearing once
@@ -63,10 +63,10 @@ After solving the puzzle the program will ask for the user to name the output fi
 | Average   | 0.055857992172  |  0.088582754135  | 0.17396359444 | 0.4673891068
 
 
-Puzzles generated from [sodoku.com]. 
+Puzzles generated from [sudoku.com]. 
 [^1]: http://www.cs.toronto.edu/~hojjat/384w09/Lectures/Lecture-04-Backtracking-Search.pdf
 
-[sodoku.com]: https://sudoku.com/expert/
+[sudoku.com]: https://sudoku.com/expert/
 
 [Python 2.7]: <https://www.python.org/download/releases/2.7/>
    
